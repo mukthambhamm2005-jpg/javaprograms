@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public interface printable {
+    void print();
+    void show();
+    void run();
 }

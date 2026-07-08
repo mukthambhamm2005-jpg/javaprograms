@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public class result_interface implements printable, showable{
+    public void print(){
+        System.out.println("printing..");
 
-public class result_interface {
+    }
+    public void show(){
+        System.out.println("show.......");
+    }
+    public void run(){
+        System.out.println("running....");
+    }
 }

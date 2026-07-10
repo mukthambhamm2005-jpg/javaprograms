@@ -7,10 +7,12 @@ public class counter_index {
             }
         });
         Thread t2=new Thread(()->{
-            for(int i=1;i<=1000;i++){
+            for(int i=1;i<=500;i++){
                 c.increment();
             }
         });
+        show_thread s=new show_thread();
+        s.show();
         t1.start();
         t2.start();
         t1.join();

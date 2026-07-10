@@ -3,7 +3,7 @@ public class sleep_hello extends Thread{
         for(int i=0;i<=5;i++){
             System.out.println("hello");
             try{
-                Thread.sleep(500);
+                Thread.sleep(100);
             }catch(InterruptedException a){
                 throw new RuntimeException(a);
             }

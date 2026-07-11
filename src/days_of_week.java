@@ -10,7 +10,7 @@ public class days_of_week {
     public static void main(String[] args){
         LocalDate date=LocalDate.now();
         int count=0;
-        while(count<9){
+        while(count<10){
             date=date.plusDays(1);
             if(date.getDayOfWeek()== DayOfWeek.THURSDAY){
                 System.out.println(date);
